@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <property name = "DEV_HOME" value="./twitter-to-kafka-service/logs"/>
+    <property name="APP_NAME" value="twitter-to-kafka-service"/>
+
+    <appender name="STOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %
+            </Pattern>
+        </layout>
+
+    </appender>
+</configuration>
